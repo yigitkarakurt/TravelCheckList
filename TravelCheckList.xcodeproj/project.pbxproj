@@ -13,6 +13,7 @@
 		0057356229DC3A1500C958FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057356129DC3A1500C958FA /* Preview Assets.xcassets */; };
 		0057356929DC437F00C958FA /* TravelCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057356829DC437F00C958FA /* TravelCheckModel.swift */; };
 		0057356B29DC46B100C958FA /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057356A29DC46B100C958FA /* TravelDetailView.swift */; };
+		0057356D29DC5C2800C958FA /* SeenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057356C29DC5C2800C958FA /* SeenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0057356129DC3A1500C958FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0057356829DC437F00C958FA /* TravelCheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckModel.swift; sourceTree = "<group>"; };
 		0057356A29DC46B100C958FA /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		0057356C29DC5C2800C958FA /* SeenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				0057355A29DC3A1500C958FA /* TravelCheckListApp.swift */,
 				0057356829DC437F00C958FA /* TravelCheckModel.swift */,
 				0057356A29DC46B100C958FA /* TravelDetailView.swift */,
+				0057356C29DC5C2800C958FA /* SeenButton.swift */,
 				0057355C29DC3A1500C958FA /* ContentView.swift */,
 				0057355E29DC3A1500C958FA /* Assets.xcassets */,
 				0057356029DC3A1500C958FA /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0057356929DC437F00C958FA /* TravelCheckModel.swift in Sources */,
+				0057356D29DC5C2800C958FA /* SeenButton.swift in Sources */,
 				0057356B29DC46B100C958FA /* TravelDetailView.swift in Sources */,
 				0057355D29DC3A1500C958FA /* ContentView.swift in Sources */,
 				0057355B29DC3A1500C958FA /* TravelCheckListApp.swift in Sources */,
