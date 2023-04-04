@@ -10,12 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationView(){
+                List(travelArray){ city in
+                
+                    NavigationLink{
+                        TravelDetailView(name: city.name, description: city.description)
+                        
+                    }label: {
+                        Text(city.name)
+                    }
+                    
+                }.navigationTitle("Cities")
+            }
         }
-        .padding()
     }
 }
 
